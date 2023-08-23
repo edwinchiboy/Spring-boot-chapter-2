@@ -1,0 +1,14 @@
+<h1> Greetings learning Spring boot 3.0 fans! </h1>
+<p>
+  In this chapter, we are learning how to make a web app using spring boot 6.0
+</p>
+<ul>
+    {{#videos}}
+        <li>{{name}}</li>
+    {{/videos}}
+</ul>
+
+<form action="/new-video" method="post">
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
